@@ -17,7 +17,9 @@ Route::get('/joinArtisan', function () {
     return view('artisan.joinArtisan');
 })->name('joinArtisan')->middleware(['auth']);
 
-
+Route::get('/manifiest', function () {
+    return view('manifiest');
+})->name('manifiest');
 
 require __DIR__.'/auth.php';
 
