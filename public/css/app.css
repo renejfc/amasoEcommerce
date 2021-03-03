@@ -107,6 +107,11 @@ body {
 .greenLightBg{
   background-color:#81A78C;
 }
+
+.greenManifiestBg{
+  background-color:#92b99d;
+}
+
 .greenLightBg:hover{
   background-color: #7E9C86;
 }
@@ -130,6 +135,10 @@ body {
 }
 .beigeLight{
   color:#EEE5CF;
+}
+
+.beigeLightBg{
+  background-color:#EEE5CF;
 }
 .counter{
   opacity: 0.6;
@@ -163,6 +172,21 @@ body {
   line-height: 16px;
   text-align: center;
   color: #336147;
+}
+
+.heroTextManifiest {
+  font-family: Exo;
+  font-style: normal;
+  font-weight: 900;
+  /* font-size: 16px; */
+  line-height: 50px;
+  text-align: center;
+  color: #224631;
+  font-size: 200%;
+}
+
+.boxHeroTextManifiest {
+  background-color:#92b99d;
 }
 
 
