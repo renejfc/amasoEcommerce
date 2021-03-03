@@ -16,7 +16,9 @@
             <p class="heroText text-left w-44 text-xs md:text-sm lg:text-base lg:w-full xl:text-xl">
                 Tienda online de productos locales y artesanales.
             </p>
-
+            <button class="greenLightBg  rounded-xl ml-44">
+                <a class="m-auto text-lg p-2 font-thin exo text-white" href="{{ route('manifiest') }}">Manifiesto</a>
+            </button>
         </section>
     </header>
 
